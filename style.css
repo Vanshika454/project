@@ -1,0 +1,459 @@
+/* Reset and Global Styles */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  color: #ffc107;
+}
+.container-fluid {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+@media (min-width: 576px) {
+  .container-fluid {
+    height: 20px;
+  }
+}
+/* Navbar Styles */
+.navbar {
+  background-color: #156dc5;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding-top: 10px; /* Add padding for better visual appeal */
+}
+
+/* Navbar Brand Styles */
+.navbar-brand.logo img {
+  max-height: 50px;
+  margin-right: 10px;
+  width: 130px;
+}
+
+/* Toggler Styles */
+.navbar-toggler {
+  border-color: #ffc107;
+}
+
+.navbar-toggler-icon {
+  background-color: #ffc107;
+}
+
+/* Navbar Text Styles */
+.navbar-dark .navbar-nav .nav-link {
+  font-size: 18px;
+  color: #333333;
+}
+
+/* Navbar Text Hover Styles */
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #1c5d9e;
+}
+
+/* Search Box Styles */
+.input-btn {
+  border-radius: 0;
+  border-bottom-left-radius: 20px 20px;
+}
+@media (min-width: 767px) {
+  .input-group {
+    width: 400px !important;
+  }
+}
+
+.form-inline {
+  width: auto;
+  display: inline-block;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+/* Search Button Styles */
+.search-btn {
+  background-color: #ffc107;
+  color: #343a40;
+  border-color: #ffc107;
+  border-radius: 0;
+  border-top-right-radius: 20px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.search-btn:hover {
+  background-color: #343a40;
+  color: #1c5d9e;
+}
+
+/* Navbar Login Button Styling */
+.navbar-nav .btn-warning {
+  background-color: #ffc107;
+  color: #212529;
+  font-weight: bold;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar-nav .btn-warning:hover {
+  background-color: #212529;
+  color: #1c5d9e;
+}
+
+/* Navbar Cart Link Styling */
+.navbar-nav .cart-btn {
+  color: #ffc107;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .cart-btn:hover,
+.navbar-nav .cart-btn:focus {
+  color: #1c5d9e !important;
+}
+
+/* Toggler Styles for Very Small Screens */
+@media (max-width: 575px) {
+  .navbar-toggler {
+    margin-right: 0;
+  }
+
+  .navbar-collapse {
+    justify-content: flex-start;
+  }
+}
+
+/* Footer styling */
+#footer {
+  text-align: center;
+  background-color: #15171a;
+  color: #faf9f6;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+
+#footer h5 {
+  color: #f8f7f3;
+}
+
+#footer a {
+  color: #f5f4f3;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  color: #1c5d9e;
+}
+
+#footer p {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Adjust the layout to place the footer at the bottom */
+.cover-image {
+  width: 100%;
+  height: 90vh;
+  background-position: top;
+}
+
+/*homepage styling*/
+
+.home-page {
+  text-align: center;
+}
+
+.cover-image {
+  position: relative;
+}
+
+.cover-image img {
+  width: 100%;
+  height: 90vh;
+}
+
+/* Home Page Styles */
+/* Logo and Slogan Styles */
+.logo-slogan {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  width: 80%;
+}
+
+.logo-slogan img {
+  max-width: 500px;
+  height: 100px;
+  box-shadow: 0 0 10px rgba(193, 9, 9, 0.5);
+}
+
+.logo-slogan p {
+  font-size: 20px;
+  margin-top: 10px;
+  color: #b76f6f;
+  text-shadow: 0 0 10px rgba(12, 12, 12, 0.749);
+  font-weight: lighter;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: normal;
+}
+
+/* Responsive Styles for Small Screens */
+@media (max-width: 767px) {
+  .logo-slogan {
+    width: 80%;
+  }
+
+  .logo-slogan img {
+    max-width: 100%;
+  }
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar Links Styling */
+.navbar-nav .nav-link {
+  color: #333333;
+  font-weight: 300;
+  padding: 10px 20px;
+  transition: color 0.3s ease;
+}
+
+/* Navbar Links Hover Styling */
+.navbar-nav .nav-link:hover {
+  color: #1c5d9e;
+  font-size: large;
+}
+
+/* Navbar Dropdown Styling */
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.navbar-nav .nav-item.dropdown:hover .nav-link {
+  color: #1c5d9e;
+}
+
+.navbar-nav .nav-item.dropdown .dropdown-menu {
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-nav .nav-item.dropdown .dropdown-item {
+  color: #333333;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-nav .nav-item.dropdown .dropdown-item:hover {
+  background-color: #1c5d9e;
+}
+
+/* Existing styles */
+
+/* New styles for responsiveness */
+@media (max-width: 767px) {
+  .navbar-brand,
+  .navbar-toggler {
+    margin-left: 0;
+  }
+
+  .header1 .navbar-collapse {
+    text-align: left;
+  }
+
+  .header1 .navbar-nav {
+    width: 100%;
+  }
+
+  .header1 .navbar-nav .nav-item {
+    width: 100%;
+    text-align: left;
+  }
+}
+
+.featured-products-slider {
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+.featured-products-slider h2 {
+  color: #343a40;
+}
+
+.featured-products-slider .carousel-inner {
+  text-align: left;
+}
+
+.featured-products-slider .card {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Custom styles for the featured products slider */
+.featured-products-slider {
+  background-color: #f8f9fa; /* Set background color */
+  padding: 40px 0; /* Add some padding for better visual appeal */
+}
+
+/* Center the title */
+.featured-products-slider h2 {
+  text-align: left;
+}
+
+/* Style for card */
+.card {
+  border: 1px solid #dee2e6; /* Set border color */
+  border-radius: 8px; /* Add border-radius for rounded corners */
+  margin-bottom: 20px; /* Add some spacing between cards */
+  transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
+/* Add hover effect on cards */
+.card:hover {
+  transform: scale(1.02); /* Increase the size on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow on hover */
+}
+
+/* Style for card images */
+.card-img-top {
+  border-top-left-radius: 8px; /* Rounded corners for top-left */
+  border-top-right-radius: 8px; /* Rounded corners for top-right */
+  height: 350px;
+}
+
+/* Style for card body */
+.card-body {
+  padding: 20px; /* Add padding inside the card body */
+}
+.card-body p {
+  height: 60px;
+}
+/* Style for card title */
+.card-title {
+  font-size: 1.25rem; /* Set font size for title */
+  font-weight: bold; /* Make title bold */
+}
+
+/* Style for card text */
+.card-text {
+  color: #6c757d; /* Set text color */
+}
+
+/* Style for carousel indicators */
+.carousel-indicators {
+  bottom: -30px;
+}
+
+/* Style for carousel control icons */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #007bff;
+}
+
+/* Style for carousel control buttons */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+
+/* Style for visually hidden text */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+/* Contact Us Styles */
+.container-fluid2 {
+  padding: 50px; /* Adjust the padding as needed */
+}
+
+.container-fluid2 h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.img-fluid1 {
+  height: 340px;
+  position: relative;
+  top: 30px;
+  left: 90px;
+  width: 400px; /* Ensure the image takes the full width of its container */
+}
+
+form {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #ffc107;
+  color: #212529;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #212529;
+  color: #1c5d9e;
+}
+
+/* Custom styles for the cart page */
+.container-fluid3 {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.quantity {
+  display: flex;
+  margin-top: 50%;
+}
+
+.cart-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+.algo {
+  width: 5px;
+}
+
+@media (max-width: 780px) {
+  .cart-content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+i {
+  font-size: 2rem;
+}
+
+.summary-content {
+  display: flex;
+  justify-content: space-between;
+}

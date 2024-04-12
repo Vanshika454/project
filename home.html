@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your E-Commerce Website</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="style.css">
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Dynamic Header -->
+    <div id="header-placeholder"></div>
+
+    <!-- Home Page -->
+    <section class="home-page">
+        <!-- Cover Image -->
+        <div class="cover-image">
+            <img src="img/images/common.png" alt="Cover Image">
+            <div class="logo-slogan">
+                <img src="img/logo/logo.jpg.png" alt="Company Logo" class="img-fluid">
+                <p>Unleash Your Style with Maika. Fashion that Speaks Volumes.</p>
+            </div>
+        </div>
+
+        <!-- Featured Products Slider -->
+        <div class="featured-products-slider">
+            <div class="container">
+                <h2 class="mb-4">Featured Products</h2>
+                <div id="featuredCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <!-- Slide 1 -->
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <!-- Cards for larger screens (4 cards per slide) -->
+                                <!-- Card 1 -->
+                                <div class="col-lg-3 d-none d-lg-block">
+                                    <div class="card">
+                                        <img src="/img/Dresses/dress1.png" class="card-img-top" alt="Dress 1">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Berrylush</h5>
+                                            <p class="card-text">Drop Dead Gorgeous Cocktail Dress</p>
+                                            <h5 class="card-text">&#8377; 979</h5>
+                                            <a href="cart.html" class="btn btn-primary d-block w-100">
+                                                <i class="fa fa-shopping-cart"></i> Add to Cart
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Card 2 -->
+                                <div class="col-lg-3 d-none d-lg-block">
+                                    <div class="card">
+                                        <img src="/img/Dresses/dress2.png" class="card-img-top" alt="Dress 2">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Athena</h5>
+                                            <p class="card-text">Black Cut Out Bodycon Dress</p>
+                                            <h5 class="card-text">&#8377; 1409</h5>
+                                            <a href="cart.html" class="btn btn-primary d-block w-100">
+                                                <i class="fa fa-shopping-cart"></i> Add to Cart
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Card 3 -->
+                                <div class="col-lg-3 d-none d-lg-block">
+                                    <div class="card">
+                                        <img src="/img/Dresses/dress3.png" class="card-img-top" alt="Dress 3">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Berrylush</h5>
+                                            <p class="card-text">Blue Off-Shoulder Puff Sleeves Cut Outs A-Line Midi
+                                                Dress</p>
+                                            <h5 class="card-text">&#8377; 913</h5>
+                                            <a href="cart.html" class="btn btn-primary d-block w-100">
+                                                <i class="fa fa-shopping-cart"></i> Add to Cart
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Card 4 -->
+                                <div class="col-lg-3 d-none d-lg-block">
+                                    <div class="card">
+                                        <img src="/img/Dresses/dress4.png" class="card-img-top" alt="Dress 4">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Berrylush</h5>
+                                            <p class="card-text">Women Pink Floral Printed One Shoulder Fit and Flare
+                                                Dress</p>
+                                            <h5 class="card-text">&#8377; 611</h5>
+                                            <a href="cart.html" class="btn btn-primary d-block w-100">
+                                                <i class="fa fa-shopping-cart"></i> Add to Cart
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- For medium screens (2 cards per slide) -->
+                                <div class="col-md-6 d-none d-md-block d-lg-none">
+                                    <!-- Card 1 -->
+                                    <div class="card">
+                                        <img src="/img/Dresses/dress4.png" class="card-img-top" alt="Dress 1" />
+                                        <div class="card-body">
+                                            <h5 class="card-title">Berrylush</h5>
+                                            <p class="card-text">
+                                                Women Pink Floral Printed One Shoulder Fit and Flare
+                                                Dress
+                                            </p>
+                                            <h5 class="card-text">&#8377; 611</h5>
+                                            <a href="cart.html" class="btn btn-primary d-block w-100">
+                                                <i class="fa fa-shopping-cart"></i> Add to Cart
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 d-none d-md-block d-lg-none">
+                                    <!-- Card 2 -->
+                                    <div class="card">
+                                        <img src="/img/Dresses/dress2.png" class="card-img-top" alt="Dress 2" />
+                                        <div class="card-body">
+                                            <h5 class="card-title">Athena</h5>
+                                            <p class="card-text">Black Cut Out Bodycon Dress</p>
+                                            <h5 class="card-text">&#8377; 1409</h5>
+                                            <a href="cart.html" class="btn btn-primary d-block w-100">
+                                                <i class="fa fa-shopping-cart"></i> Add to Cart
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Add more cards for slide 1 if needed -->
+
+                                <!-- For small screens (1 card per slide) -->
+                                <div class="col-12 d-block d-sm-block d-md-none">
+                                    <!-- Card 1 -->
+                                    <div class="card">
+                                        <img src="/img/Dresses/dress4.png" class="card-img-top" alt="Dress 1" />
+                                        <div class="card-body">
+                                            <h5 class="card-title">Berrylush</h5>
+                                            <p class="card-text">
+                                                Women Pink Floral Printed One Shoulder Fit and Flare
+                                                Dress
+                                            </p>
+                                            <h5 class="card-text">&#8377; 611</h5>
+                                            <a href="cart.html" class="btn btn-primary d-block w-100">
+                                                <i class="fa fa-shopping-cart"></i> Add to Cart
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Add more cards for slide 1 if needed -->
+                            </div>
+                        </div>
+
+
+
+
+                        <!-- Slide 2 -->
+                        <div class="carousel-item">
+                            <div class="row">
+                                <!-- For larger screens (4 cards per slide) -->
+                                <div class="col-lg-3 d-none d-lg-block">
+                                    <!-- Card 5 -->
+                                    <div class="card">
+                                        <img src="/img/Kids/pic5.png" class="card-img-top" alt="Kids 5" />
+                                        <div class="card-body">
+                                            <h5 class="card-title">BAESD</h5>
+                                            <p class="card-text">
+                                                Girls Floral Net Fit & Flare Party Dress
+                                            </p>
+                                            <h5 class="card-text">&#8377; 649</h5>
+                                            <a href="cart.html" class="btn btn-primary d-block w-100">
+                                                <i class="fa fa-shopping-cart"></i> Add to Cart
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 d-none d-lg-block">
+                                    <!-- Card 6 -->
+                                    <div class="card">
+                                        <img src="/img/Kids/pic2.png" class="card-img-top" alt="Kids 2" />
+                                        <div class="card-body">
+                                            <h5 class="card-title">H&M</h5>
+                                            <p class="card-text">
+                                                Girls Black Solid Brushed-Inside Leggings
+                                            </p>
+                                            <h5 class="card-text">&#8377; 799</h5>
+                                            <a href="cart.html" class="btn btn-primary d-block w-100">
+                                                <i class="fa fa-shopping-cart"></i> Add to Cart
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 d-none d-lg-block">
+                                    <!-- Card 7 -->
+                                    <div class="card">
+                                        <img src="/img/Kids/pic7.png" class="card-img-top" alt="Kids 7" />
+                                        <div class="card-body">
+                                            <h5 class="card-title">VASTRAMAY</h5>
+                                            <p class="card-text">
+                                                Boys Turquoise Blue Printed Bandhgala Blazer
+                                            </p>
+                                            <h5 class="card-text">&#8377; 1714</h5>
+                                            <a href="cart.html" class="btn btn-primary d-block w-100">
+                                                <i class="fa fa-shopping-cart"></i> Add to Cart
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 d-none d-lg-block">
+                                    <!-- Card 8 -->
+                                    <div class="card">
+                                        <img src="/img/Kids/pic3.png" class="card-img-top" alt="Kids 3" />
+                                        <div class="card-body">
+                                            <h5 class="card-title">Sangria</h5>
+                                            <p class="card-text">
+                                                Girls Floral Printed Pure Cotton A-Line Kurta With
+                                                Palazzos
+                                            </p>
+                                            <h5 class="card-text">&#8377; 979</h5>
+                                            <a href="cart.html" class="btn btn-primary d-block w-100">
+                                                <i class="fa fa-shopping-cart"></i> Add to Cart
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- For medium screens (2 cards per slide) -->
+                                <div class="col-md-6 d-none d-md-block d-lg-none">
+                                    <!-- Card 1 -->
+                                    <div class="card">
+                                        <img src="/img/Kids/pic5.png" class="card-img-top" alt="Kids 5" />
+                                        <div class="card-body">
+                                            <h5 class="card-title">BAESD</h5>
+                                            <p class="card-text">
+                                                Girls Floral Net Fit & Flare Party Dress
+                                            </p>
+                                            <h5 class="card-text">&#8377; 649</h5>
+                                            <a href="cart.html" class="btn btn-primary d-block w-100">
+                                                <i class="fa fa-shopping-cart"></i> Add to Cart
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 d-none d-md-block d-lg-none">
+                                    <!-- Card 2 -->
+                                    <div class="card">
+                                        <img src="/img/Kids/pic2.png" class="card-img-top" alt="Kids 2" />
+                                        <div class="card-body">
+                                            <h5 class="card-title">H&M</h5>
+                                            <p class="card-text">
+                                                Girls Black Solid Brushed-Inside Leggings
+                                            </p>
+                                            <h5 class="card-text">&#8377; 799</h5>
+                                            <a href="cart.html" class="btn btn-primary d-block w-100">
+                                                <i class="fa fa-shopping-cart"></i> Add to Cart
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Add more cards for slide 2 if needed -->
+
+                                <!-- For small screens (1 card per slide) -->
+                                <div class="col-12 d-block d-sm-block d-md-none">
+                                    <!-- Card 1 -->
+                                    <div class="card">
+                                        <img src="/img/Kids/pic5.png" class="card-img-top" alt="Kids 5" />
+                                        <div class="card-body">
+                                            <h5 class="card-title">BAESD</h5>
+                                            <p class="card-text">
+                                                Girls Floral Net Fit & Flare Party Dress
+                                            </p>
+                                            <h5 class="card-text">&#8377; 649</h5>
+                                            <a href="cart.html" class="btn btn-primary d-block w-100">
+                                                <i class="fa fa-shopping-cart"></i> Add to Cart
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Add more cards for slide 2 if needed -->
+                            </div>
+                        </div>
+
+
+                        <!-- Slide 3 -->
+                        <div class="carousel-item">
+                            <div class="row">
+                                <!-- For larger screens (4 cards per slide) -->
+                                <div class="col-lg-3 d-none d-lg-block">
+                                    <!-- Card 9 -->
+                                    <div class="card">
+                                        <img src="/img/Shirt/shirt4.png" class="card-img-top" alt="Shirt 4" />
+                                        <div class="card-body">
+                                            <h5 class="card-title">Roadster</h5>
+                                            <p class="card-text">
+                                                Men Blue Denim Washed Casual Sustainable Shirt
+                                            </p>
+                                            <h5 class="card-text">&#8377; 1499</h5>
+                                            <a href="cart.html" class="btn btn-primary d-block w-100">
+                                                <i class="fa fa-shopping-cart"></i> Add to Cart
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 d-none d-lg-block">
+                                    <!-- Card 10 -->
+                                    <div class="card">
+                                        <img src="/img/Skirt/skirt7.png" class="card-img-top" alt="Skirt 7" />
+                                        <div class="card-body">
+                                            <h5 class="card-title">SASSAFRAS</h5>
+                                            <p class="card-text">
+                                                Lovely Fuchsia Checked Uniform Dressing Skirt
+                                            </p>
+                                            <h5 class="card-text">&#8377; 629</h5>
+                                            <a href="cart.html" class="btn btn-primary d-block w-100">
+                                                <i class="fa fa-shopping-cart"></i> Add to Cart
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 d-none d-lg-block">
+                                    <!-- Card 11 -->
+                                    <div class="card">
+                                        <img src="/img/Skirt/skirt1.png" class="card-img-top" alt="Skirt 1">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Berrylush</h5>
+                                            <p class="card-text">Women Off White Floral Printed A-Line Skirt</p>
+                                            <h5 class="card-text"> &#8377; 809</h5>
+                                            <a href="cart.html" class="btn btn-primary d-block w-100">
+                                                <i class="fa fa-shopping-cart"></i> Add to Cart
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 d-none d-lg-block">
+                                    <!-- Card 12 -->
+                                    <div class="card">
+                                        <img src="/img/Hoodies/img4.png" class="card-img-top" alt="Hoodie 4" />
+                                        <div class="card-body">
+                                            <h5 class="card-title">Roadster</h5>
+                                            <p class="card-text">
+                                                Men Black Solid Hooded Sweatshirt
+                                            </p>
+                                            <h5 class="card-text">&#8377; 559</h5>
+                                            <a href="cart.html" class="btn btn-primary d-block w-100">
+                                                <i class="fa fa-shopping-cart"></i> Add to Cart
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Add more slides if needed -->
+                                <!-- For medium screens (2 cards per slide) -->
+                                <div class="col-md-6 d-none d-md-block d-lg-none">
+                                    <!-- Card 1 -->
+                                    <div class="card">
+                                        <img src="/img/Shirt/shirt4.png" class="card-img-top" alt="Shirt 4" />
+                                        <div class="card-body">
+                                            <h5 class="card-title">Roadster</h5>
+                                            <p class="card-text">
+                                                Men Blue Denim Washed Casual Sustainable Shirt
+                                            </p>
+                                            <h5 class="card-text">&#8377; 1499</h5>
+                                            <a href="cart.html" class="btn btn-primary d-block w-100">
+                                                <i class="fa fa-shopping-cart"></i> Add to Cart
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 d-none d-md-block d-lg-none">
+                                    <!-- Card 2 -->
+                                    <div class="card">
+                                        <img src="/img/Hoodies/img4.png" class="card-img-top" alt="Hoodie 4" />
+                                        <div class="card-body">
+                                            <h5 class="card-title">Roadster</h5>
+                                            <p class="card-text">
+                                                Men Black Solid Hooded Sweatshirt
+                                            </p>
+                                            <h5 class="card-text">&#8377; 559</h5>
+                                            <a href="cart.html" class="btn btn-primary d-block w-100">
+                                                <i class="fa fa-shopping-cart"></i> Add to Cart
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Add more cards for slide 3 if needed -->
+
+                                <!-- For small screens (1 card per slide) -->
+                                <div class="col-12 d-block d-sm-block d-md-none">
+                                    <!-- Card 1 -->
+                                    <div class="card">
+                                        <img src="/img/Shirt/shirt4.png" class="card-img-top" alt="Shirt 4" />
+                                        <div class="card-body">
+                                            <h5 class="card-title">Roadster</h5>
+                                            <p class="card-text">
+                                                Men Blue Denim Washed Casual Sustainable Shirt
+                                            </p>
+                                            <h5 class="card-text">&#8377; 1499</h5>
+                                            <a href="cart.html" class="btn btn-primary d-block w-100">
+                                                <i class="fa fa-shopping-cart"></i> Add to Cart
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Add more cards for slide 3 if needed -->
+                            </div>
+                        </div>
+
+                        <!-- Add more slides if needed -->
+                    </div>
+
+                    <!-- Carousel Controls -->
+                    <a class="carousel-control-prev" href="#featuredCarousel" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#featuredCarousel" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dynamic Footer -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
